@@ -38,7 +38,7 @@ func main() {
 				if !ok {
 					if err = b.Retry(req); err != nil {
 						logger.Error().Msgf("Error retrying to handle item: %v", err)
-						continue
+						break
 					}
 				}
 			case <-done:
