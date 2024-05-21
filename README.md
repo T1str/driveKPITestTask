@@ -2,7 +2,10 @@
 
 How to run? 
 1. Clone the repository
-2. Run the following command in the terminal
+```bash
+git clone https://github.com/T1str/driveKPITestTask.git
+```
+3. Run the following command in the terminal
 ```bash
 go mod tidy
 ```
